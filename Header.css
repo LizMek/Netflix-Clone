@@ -1,0 +1,93 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.header_black {
+  background-color: #111;
+}
+
+/* Left side: logo and navigation links */
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Netflix logo */
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+/* Navigation links */
+.header_links a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease-in;
+}
+
+.header_links a:hover {
+  color: #b3b3b3;
+}
+
+/* Right side: search bar and avatar */
+.header_right {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.header_search {
+  position: relative;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header_search i {
+  color: #aaa;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header_search input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.header_search input::placeholder {
+  color: #aaa;
+}
+
+.header_avatar {
+  width: 30px;
+  cursor: pointer;
+}
+.nav_avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+  margin-right: 20px;
+}

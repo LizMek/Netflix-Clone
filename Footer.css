@@ -1,0 +1,39 @@
+.footer {
+  background-color: #141414;
+  padding: 20px;
+  color: #757575;
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer_links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer_links ul li {
+  margin: 5px 15px;
+}
+
+.footer_links ul li a {
+  color: #757575;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer_links ul li a:hover {
+  color: #fff;
+}
+
+.footer_copy {
+  margin-top: 20px;
+}
+
+.footer_copy p {
+  margin: 0;
+  color: #757575;
+}
